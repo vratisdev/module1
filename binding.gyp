@@ -7,8 +7,7 @@
                 'SomeStuff.cpp'
             ],
             'include_dirs': [
-                '../common',
-                '<(module_root_dir)/node_modules/nan'
+                "<!(node -e \"require('nan')\")"
             ],
             'defines': [
                 '_EXPORTING'
