@@ -8,7 +8,7 @@
             ],
             'include_dirs': [
                 '../common',
-                'node_modules/nan/'
+                '<(module_root_dir)/node_modules/nan'
             ],
             'defines': [
                 '_EXPORTING'
